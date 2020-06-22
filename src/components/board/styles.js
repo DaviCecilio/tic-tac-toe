@@ -55,7 +55,7 @@ export default styled.div`
 
                 font-size: 8vw;
                 background: none;
-                border: 1px solid #393737;
+                border: 1px solid #989fb8;
 
                 cursor: pointer;
                 ::after {

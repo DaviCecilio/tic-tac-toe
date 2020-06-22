@@ -43,10 +43,12 @@ export default () => {
         setIsXNext(history[i].squares)
 
         setWhoIsWinner(history[i].whoIsWinner)
+        setOpenModal(!openModal)
     }
     function handleShow() {
         setOpenModal(!openModal)
     }
+
     return (
         <HistoryContainer>
             <div>
@@ -75,7 +77,7 @@ export default () => {
                                         className="btn historyBtn"
                                         onClick={() => handleClick(i)}
                                     >
-                                        Voltar para jogada: {i}
+                                        Back to move: {i}
                                     </button>
                                 </div>
                             ))

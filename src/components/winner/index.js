@@ -54,10 +54,10 @@ export default () => {
                 />
                 <h1 className="fontTitle">{`${winnerPerson} !`}</h1>
                 <div className="wrapperBtn">
-                    <button type="button" className="btnCloseModal" onClick={closeModal}>
-                        Match history
-                    </button>
                     <Reset title="Play Again" />
+                    <button type="button" className="btnCloseModal " onClick={() => closeModal()}>
+                        Close
+                    </button>
                 </div>
             </WinnerContainer>
         </Modal>

@@ -70,4 +70,8 @@ export default createGlobalStyle`
     font-weight: bold
   }
 
+  .mt-2{
+    margin-top: 20px;
+  }
+
 `

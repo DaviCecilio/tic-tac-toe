@@ -19,9 +19,9 @@ export default styled.div`
             padding: 10px 30px;
 
             border-radius: 3px;
-            border: 1px solid #3ab795;
-            background-color: #3ab795;
-            color: #393737;
+            border: 1px solid #c4314b;
+            background-color: #c4314b;
+            color: #d8e7ee;
             font-weight: bold;
             letter-spacing: 3px;
             text-transform: uppercase;
