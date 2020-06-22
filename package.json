@@ -1,6 +1,6 @@
 {
-    "homepage": "http://davicecilio.github.io/tic-tac-toe-hooks",
-    "name": "tic-tac-toe-hooks",
+    "homepage": "http://davicecilio.github.io/tic-tac-toe",
+    "name": "tic-tac-toe",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

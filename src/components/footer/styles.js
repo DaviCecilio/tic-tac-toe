@@ -4,10 +4,10 @@ export default styled.footer`
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: -60px;
 
     .shapeTopFooter {
         content: url(${(props) => props.backgroundTop});
+        margin-bottom: -1px;
     }
 
     .contentFooter {
