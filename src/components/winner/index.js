@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react'
 import Modal from 'react-modal'
-import Lottie from 'react-lottie'
-import winAnimation from '../../assets/animations/trophyAnimation.json'
 import RickWin from '../../assets/animations/rickWin.gif'
 import MortyWin from '../../assets/animations/mortyWin.gif'
+import Tie from '../../assets/animations/tieWin.gif'
 
 import { GameContext } from '../../contexts/gameContext'
 import Reset from '../reset'
@@ -21,19 +20,12 @@ const customModal = {
     },
 }
 
-const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: winAnimation,
-    rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
-    },
-}
-
 export default () => {
     const { whoIsWinner } = useContext(GameContext)
     const [isShow, setIsShow] = useState(false)
-    const winnerPerson = whoIsWinner === 'X' ? 'Rick' : 'Morty'
+    const winnerPerson =
+        // eslint-disable-next-line no-nested-ternary
+        whoIsWinner === 'X' ? 'Rick Won' : whoIsWinner === 'O' ? 'Morty Won' : 'Gave a Tie'
 
     useEffect(() => {
         if (whoIsWinner) setIsShow(true)
@@ -49,16 +41,18 @@ export default () => {
             isOpen={isShow}
             onRequestClose={closeModal}
             style={customModal}
-            contentLabel="Example Modal"
+            contentLabel="Player Won"
         >
             <WinnerContainer>
-                {/* <Lottie options={defaultOptions} height={225} width={225} /> */}
                 <img
                     className="animationWin"
-                    src={whoIsWinner === 'X' ? RickWin : MortyWin}
-                    alt={`${whoIsWinner === 'X' ? 'Rick' : 'Morty'} - Win`}
+                    src={
+                        // eslint-disable-next-line no-nested-ternary
+                        whoIsWinner === 'X' ? RickWin : whoIsWinner === 'O' ? MortyWin : Tie
+                    }
+                    alt={winnerPerson}
                 />
-                <h1 className="titleWinner">{`${winnerPerson} Won !`}</h1>
+                <h1 className="fontTitle">{`${winnerPerson} !`}</h1>
                 <div className="wrapperBtn">
                     <button type="button" className="btnCloseModal" onClick={closeModal}>
                         Match history

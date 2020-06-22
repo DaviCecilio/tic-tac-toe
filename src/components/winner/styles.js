@@ -6,11 +6,6 @@ export default styled.div`
     .winnerIcon {
         width: 15vw;
     }
-    .titleWinner {
-        margin: 15px 0;
-        font-family: 'Calligraphr';
-        font-size: 1.5em;
-    }
 
     .animationWin {
         width: 30vw;

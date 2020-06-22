@@ -21,6 +21,7 @@ export default () => {
         if (winner) {
             setWhoIsWinner(winner)
         }
+        if (history.length === 9 && !winner) setWhoIsWinner('tie')
     }, [history, setWhoIsWinner, squares])
 
     return (

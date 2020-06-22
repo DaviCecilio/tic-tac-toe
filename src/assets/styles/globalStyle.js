@@ -52,4 +52,22 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
+  .fontTitle{
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Calligraphr';
+    font-size: 2.5em;
+  }
+  
+  .fontSubTitle{
+    text-align: center;
+    font-family: 'Shittychan';
+    font-size: 1.5em;
+  }
+
+  .fontDanger{
+    color: #C4314B;
+    font-weight: bold
+  }
+
 `
