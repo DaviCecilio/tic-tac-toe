@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/tic-tac-toe-hooks/static/js/main.ad14676b.chunk.js",
+    "main.js.map": "/tic-tac-toe-hooks/static/js/main.ad14676b.chunk.js.map",
+    "runtime-main.js": "/tic-tac-toe-hooks/static/js/runtime-main.b2a6d5e4.js",
+    "runtime-main.js.map": "/tic-tac-toe-hooks/static/js/runtime-main.b2a6d5e4.js.map",
+    "static/js/2.0f06176b.chunk.js": "/tic-tac-toe-hooks/static/js/2.0f06176b.chunk.js",
+    "static/js/2.0f06176b.chunk.js.map": "/tic-tac-toe-hooks/static/js/2.0f06176b.chunk.js.map",
+    "index.html": "/tic-tac-toe-hooks/index.html",
+    "precache-manifest.afeda02a86f5f3b87f0328caf94056b2.js": "/tic-tac-toe-hooks/precache-manifest.afeda02a86f5f3b87f0328caf94056b2.js",
+    "service-worker.js": "/tic-tac-toe-hooks/service-worker.js",
+    "static/js/2.0f06176b.chunk.js.LICENSE.txt": "/tic-tac-toe-hooks/static/js/2.0f06176b.chunk.js.LICENSE.txt",
+    "static/media/Calligraphr-Regular.ttf": "/tic-tac-toe-hooks/static/media/Calligraphr-Regular.1801a369.ttf",
+    "static/media/backgroundRM.jpg": "/tic-tac-toe-hooks/static/media/backgroundRM.61e1350b.jpg",
+    "static/media/divCustom.svg": "/tic-tac-toe-hooks/static/media/divCustom.a6e693bf.svg",
+    "static/media/footerBackground.svg": "/tic-tac-toe-hooks/static/media/footerBackground.13d2b319.svg",
+    "static/media/get_schwifty.ttf": "/tic-tac-toe-hooks/static/media/get_schwifty.4b4420cf.ttf",
+    "static/media/logoDark.png": "/tic-tac-toe-hooks/static/media/logoDark.67536b53.png",
+    "static/media/mortyPerson.svg": "/tic-tac-toe-hooks/static/media/mortyPerson.5c2ac267.svg",
+    "static/media/mortyWin.gif": "/tic-tac-toe-hooks/static/media/mortyWin.ab9b0462.gif",
+    "static/media/rickPerson.svg": "/tic-tac-toe-hooks/static/media/rickPerson.ef1c1f25.svg",
+    "static/media/rickWin.gif": "/tic-tac-toe-hooks/static/media/rickWin.a8174d07.gif",
+    "static/media/shittychan.ttf": "/tic-tac-toe-hooks/static/media/shittychan.c8f1fe23.ttf",
+    "static/media/tieWin.gif": "/tic-tac-toe-hooks/static/media/tieWin.b1e3ec3c.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2a6d5e4.js",
+    "static/js/2.0f06176b.chunk.js",
+    "static/js/main.ad14676b.chunk.js"
+  ]
+}
