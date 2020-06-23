@@ -24,7 +24,7 @@ Motivation to apply the knowledge acquired by refactoring the code present in th
 ## 🕹️ DEMO
 
 <p align='center'>
-<img align='center' alt="Logo - Davi Cecílio" src="./src/assets/images/demo.png" width="250" />
+<img align='center' alt="Logo - Davi Cecílio" src="./src/assets/images/demo.png" />
 </p>
 
 ## Main Technologies
